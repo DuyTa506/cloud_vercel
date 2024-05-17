@@ -7,12 +7,9 @@
     "node": "16.x"
   },
   "scripts": {
-    "test": "mocha server/tests",
-    "install-all": "concurrently \"npm install --legacy-peer-deps\" \"cd frontend && npm install --legacy-peer-deps\"",
-    "build": "cd frontend && npm build",
-    "dev": "concurrently \"nodemon backend/server.js\" \"cd frontend && npm run start\"",
-    "start": "concurrently --kill-others \"npm run dev\" \"npm run start --prefix frontend\"",
-    "heroku-postbuild": "cd frontend && npm install --legacy-peer-deps && npm install --legacy-peer-deps --only=dev --no-shrinkwrap && npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/server.js",
+    "start": "concurrently --kill-others \"npm run dev\" \"npm run start --prefix frontend\""
   },
   "repository": {
     "type": "git",

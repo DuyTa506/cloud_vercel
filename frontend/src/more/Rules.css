@@ -1,0 +1,36 @@
+ul.rules > li{
+    font-family: sans-serif;
+    padding: 10px 0;
+    list-style: none;
+    line-height: 1.3;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.rules-container {
+    padding: 50px 30px;
+    width: 95%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rules-title {
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.rules-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 1.1rem;
+}
+
+.hotline {
+    color: #3BB77E;
+    font-weight: bold;
+}
